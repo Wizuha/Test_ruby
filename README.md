@@ -1,24 +1,9 @@
-# README
+#Structure
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Les tests pour le framework Node.js se trouvent dans le dossier "Node", tandis que les tests pour la partie Ruby se trouvent dans le dossier "Ruby".
 
-Things you may want to cover:
+Pour exécuter le script testModel.rb, accédez au dossier "Ruby" puis exécutez la commande suivante : ruby testModerable.rb.
 
-* Ruby version
+Pour exécuter le script index.js, accédez au dossier "Node" puis exécutez la commande suivante : node index.js.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Pour lancer le script des tests unitaires (Node/test/api_test.js), utilisez la commande suivante : node api_test.js.
